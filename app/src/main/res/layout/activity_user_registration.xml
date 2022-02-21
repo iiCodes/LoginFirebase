@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5e5e5"
+    tools:context=".user_registration">
+
+
+<EditText
+    android:id="@+id/Name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="15"
+    android:layout_centerHorizontal="true"
+    android:hint="Name"
+    android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_centerHorizontal="true"
+        android:hint="Email"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/Name"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_centerHorizontal="true"
+        android:hint="Password"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/email"/>
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Sign up"
+        android:width="150dp"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/password"/>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Go back!"
+        android:width="150dp"
+        android:textColor="@color/purple_500"
+        android:backgroundTint="@color/white"
+        android:layout_below="@+id/signup"/>
+
+
+</RelativeLayout>
